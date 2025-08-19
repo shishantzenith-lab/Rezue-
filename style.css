@@ -1,0 +1,14 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Arial', sans-serif; background: #111; color: #fff; overflow-x: hidden; }
+header { display: flex; justify-content: space-between; align-items: center; padding: 20px; background: #1a1a1a; position: sticky; top: 0; z-index: 100; }
+header h1 { color: #ff4081; }
+nav ul { list-style: none; display: flex; gap: 20px; }
+nav a { color: #fff; text-decoration: none; transition: 0.3s; }
+nav a:hover { color: #ff4081; }
+section { padding: 60px 20px; text-align: center; }
+#three-container { width: 100%; height: 400px; margin-bottom: 20px; }
+.cards { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+.card { background: #1e1e1e; padding: 10px; border-radius: 15px; transition: 0.3s; width: 200px; }
+.card img { width: 100%; border-radius: 10px; }
+.card:hover { transform: translateY(-10px); box-shadow: 0 10px 20px #ff4081; }
+footer { padding: 20px; background: #1a1a1a; }
